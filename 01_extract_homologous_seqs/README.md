@@ -33,7 +33,7 @@ It will parses the blast results and filters sequences, outputed fasta files sav
 + run`for i in $(ls *.fa); do transeq ./${i%.*}.fa ../protein/${i%.*}.txt -frame=6;done`  
 It will yield six homologous protein sequences translated from both the forward and reverse strands of each homologous sequence. Subsequently, the translated proteins are grouped according to the AD, ID, and Env regions, and the test files are placed in the `test_AD`,`test_ID`,`test_Env` folders.
 
-##Notes：
+## Notes：
 + The AD group represents the protease/reverse region of HIV.
 + The ID group represents the integrase region of HIV.
 + The Env group represents the integrase region of HIV.
