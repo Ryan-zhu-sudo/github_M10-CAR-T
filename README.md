@@ -6,7 +6,7 @@ Chimeric antigen receptor T (CAR-T) cells, long proposed for HIV-1 treatment, ha
 
 ##Description
 
-![](C:\Users\xia\Desktop\52f657e990367ef9fc06dbd27702777.png)
+![](https://github.com/Ryan-zhu-sudo/github_M10-CAR-T/blob/main/Workflow.png)
 
  + Scripts in `01_extract_homologous_seqs` was applied to extract the homologous sequences from AD/ID (protease/reverse) and Env region.
     The corresponding results of the script run are stored in the `05_Homologous_nucleic_sequence.zip` file on the figshare website about this project.
