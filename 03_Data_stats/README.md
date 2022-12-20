@@ -20,7 +20,7 @@ cd 	`test_AD`
 
 + run `python stat_Env.py ./test_AD_combine_cluster ./test_AD_combine` to get Statistical data for before and after clusters in env region. This script is specifically designed to handle the Env region.
 
-##Notes：
+## Notes：
 + The AD group represents the protease/reverse region of HIV.
 + The ID group represents the integrase region of HIV.
 + The Env group represents the integrase region of HIV.
