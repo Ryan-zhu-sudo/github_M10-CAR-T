@@ -35,7 +35,7 @@ Chimeric antigen receptor T (CAR-T) cells, long proposed for HIV-1 treatment, ha
 
 ## Contact
 Author:
-Name：Yang Liuke<br>
+Name：Liuke Yang<br>
 Email：yangliuke816@163.com<br>
 Phone：+86-18761863703
 
