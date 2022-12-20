@@ -1,13 +1,13 @@
-#LowFreq Mutation filter
+# LowFreq Mutation filter
 
 ## Usage
 For counting the frequency of amino acid types at each position of the amino acid sequence and comparing the
 differences in amino acid types and frequencies at each position between two sets of data.Finally, the sequences with low frequency mutations are filtered by the s2_filter_low_freq.py script
 
-##Requirements
+## Requirements
 Python3.6+ is required
 
-##Running
+## Running
 + run`python b4_filter_translations.py test_AD`, output `test_AD-filter`<br>to Remove sequences with * in the protein translation fragment .The ID area and Env area are handled in the same way as the AD area.
 
 + run`python /p1_stat_seq.py [input_dir][start_pos][end_pos][output_dir]`<br>to count the amino acid type and frequency at each position of the sequence.
@@ -31,7 +31,7 @@ Python3.6+ is required
  
  2. For the ID group `TD004, TD005, TD006 (ID4_ID25 samples)`, the filtering parameter was set to `0.01 7`. These samples were done in Picbio Sequel I sequencing platform, which has a larger data volume. The other ID groupings were set with a filtering parameter of `0.01 20` and these samples were done on the Picbio Sequel II sequencing platform, which has a smaller data volume.
 
-##Notes：
+## Notes：
   + The AD group represents the protease/reverse region of HIV.
   + The ID group represents the integrase region of HIV.
   + The Env group represents the integrase region of HIV.The Env region is not filtered for low-frequency sequences because the number of translated homologous protein sequences after extraction is lower compared to AD and ID, which does not affect the subsequent cluster clustering.
