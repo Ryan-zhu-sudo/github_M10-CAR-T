@@ -36,7 +36,8 @@ It will yield six homologous protein sequences translated from both the forward 
 ## Notes：
 + The AD group represents the protease/reverse region of HIV.
 + The ID group represents the integrase region of HIV.
-+ The Env group represents the integrase region of HIV.
++ The Env group represents the Env region of HIV.
++ TD008(AD3_AD24),TD006(ID4_ID25) were sequenced only for AD(protease/reverse and integrase) and ID(integrase) regions respectively, other parts of pol region were not sequenced.
 
 ## Contact
 Author:<br>
