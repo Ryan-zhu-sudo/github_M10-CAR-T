@@ -29,7 +29,7 @@ result files saved in `./output`.
 It will parses the blast results and filters sequences, outputed fasta files saved in `result`.
 
 + run `Env_cut_seq.py`
-The program script will extract the homologous sequence of the Env region and output it to `... /Env_output` folder
+The program script will extract the homologous sequence of the Env region and output it to `../Env_output` folder
 
 `cd ./result`
 
