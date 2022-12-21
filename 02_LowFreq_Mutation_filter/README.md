@@ -34,7 +34,7 @@ Python3.6+ is required
 ## Notes：
   + The AD group represents the protease/reverse region of HIV.
   + The ID group represents the integrase region of HIV.
-  + The Env group represents the integrase region of HIV.The Env region is not filtered for low-frequency sequences because the number of translated homologous protein sequences after extraction is lower compared to AD and ID, which does not affect the subsequent cluster clustering.
+  + The Env group represents the Env region of HIV.The Env region is not filtered for low-frequency sequences because the number of translated homologous protein sequences after extraction is lower compared to AD and ID, which does not affect the subsequent cluster clustering.
   
 ## Contact
 Author:<br>
