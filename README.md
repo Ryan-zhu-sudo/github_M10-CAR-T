@@ -19,7 +19,7 @@ Chimeric antigen receptor T (CAR-T) cells, long proposed for HIV-1 treatment, ha
 	
  + `HIV(HXB2)_Ref-seq.fasta` is the complete HIV genome file.
 
- + protease/reverse_intergrate_Reference.fasta provides the sequence of AD/ID regions (protease/reverse and integrase) used in this project, as well as Env region.
+ + `protease/reverse_intergrate_Reference.fasta` provides the sequence of AD/ID regions (protease/reverse and integrase) used in this project, as well as Env region.
 
  + The `M10 CART treatment sample grouping label.xlsx` records whether all data are grouped before or after M10 CART treatment. The homologous sequences were renamed according to the grouping after translation into protein, and the pre-treatment label is SHAI, and the post-treatment label is AFTER.The renaming results are stored in fishare website under 06_Homologous_protein_sequence of this project in `03_AD_protein-rename`,`03_ID_protein-rename`,`03_Env_protein-rename`.
 
@@ -30,7 +30,8 @@ Chimeric antigen receptor T (CAR-T) cells, long proposed for HIV-1 treatment, ha
 + The AD group represents the protease/reverse region of HIV.
 + The ID group represents the integrase region of HIV.
 + The Env group represents the Env region of HIV.
-+ The original down-sequencing files ending in .fastq in this study are stored in NCBI Bioproject (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA903552). The intermediate processing files are located in the fishare platform (https://figshare.com/articles/online_resource/figshare_M10_CAR-T/21671042).
++ The original sequencing files ending in .fastq in this study are stored at NCBI Bioproject (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA903552).
+The intermediate processing files are located in the fishare platform (https://figshare.com/articles/online_resource/figshare_M10_CAR-T/21671042).
 + All data under the folders are for testing purposes, for reproduction of all results, the complete data is stored in can be obtained through the figshare platform.
 
 ## Contact
