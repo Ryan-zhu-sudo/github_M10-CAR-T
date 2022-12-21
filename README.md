@@ -31,7 +31,7 @@ Chimeric antigen receptor T (CAR-T) cells, long proposed for HIV-1 treatment, ha
 + The ID group represents the integrase region of HIV.
 + The Env group represents the Env region of HIV.
 + The original sequencing files ending in .fastq in this study are stored at NCBI Bioproject (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA903552). The processed files are located in the fishare platform (https://figshare.com/articles/online_resource/figshare_M10_CAR-T/21671042).
-+ All data under the folders are for testing purposes, for reproduction of all results, the complete data is stored in can be obtained through the figshare platform.
++ All data under the folders are for testing purposes, for reproduction of all results, the complete data can be obtained through the figshare platform.
 
 ## Contact
 Author:<br>
