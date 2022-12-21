@@ -28,6 +28,9 @@ result files saved in `./output`.
 + run `b3_extract_seqs.py`  
 It will parses the blast results and filters sequences, outputed fasta files saved in `result`.
 
++ run `Env_cut_seq.py`
+The program script will extract the homologous sequence of the Env region and output it to `... /Env_output` folder
+
 `cd ./result`
 
 + run`for i in $(ls *.fa); do transeq ./${i%.*}.fa ../protein/${i%.*}.txt -frame=6;done`  
